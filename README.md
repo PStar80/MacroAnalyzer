@@ -1,6 +1,11 @@
-# SkyWeb Analytics
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 650px)" srcset="./assets/brand/hero-mobile-static.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/brand/hero-static.svg" />
+  <source media="(max-width: 650px)" srcset="./assets/brand/hero-mobile.svg" />
+  <img src="./assets/brand/hero.svg" width="100%" alt="MacroAnalyzer — Macroeconomic Analytics Platform. Dashboards, Alerts and Interactive Views. Macro Dashboards, Indicator Views, Signal Alerts and Interactive Charts. Animated concept artwork, not an application screenshot." />
+</picture>
 
-SkyWeb Analytics is a full-stack macroeconomic analytics platform built for exploring indicators, curated macro lenses, authenticated dashboards, alert rules, signal notifications, and professional chart surfaces.
+A full-stack macroeconomic analytics platform for exploring indicators, curated macro lenses, authenticated dashboards, alert rules, signal notifications, and professional chart surfaces.
 
 It is the public/member-facing analytics layer of the Sky ecosystem. SkyServer remains the private control plane for ingestion, automation, workers, tooling, repository utilities, and alert evaluation execution.
 
